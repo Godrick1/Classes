@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div.nav-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 10px;;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    /**to make sure it never break**/
+    top: 0px;
+    left: 0px;
+}
+
+.para{
+    margin-top: 70px;
+}
+
+.pic{
+    padding: 10px;
+}
+
+img{
+    border-radius: 50px;
+}
